@@ -266,7 +266,7 @@ public class MateriaDAO {
         	try{
         		conn.close();
         	}catch(Exception ef){
-        		log.severe("No se pudo cerrar la conexion a BD: "+ ef.getMessage());
+        		log.severe("No se pudo cerrar la conexion a Base de Datos: "+ ef.getMessage());
         	}
         }
 		return p;
